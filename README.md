@@ -6,7 +6,7 @@ Differential Gene Expression Analysis of Circadian Clock Genes in the Suprachias
 
 Bioinformatics Pipeline for generating quant.sf files is as follows: <br />
 
-Download raw SRA files from NCBI SRA archive. <br />
+Download raw SRA files of "Circadian behavior is light-reprogrammed by plastic DNA methylation (sequencing)" study from NCBI SRA archive. <br />
 Convert to Fastq files with fastq clipper. <br />
 Use Salmon's paired-end clipping tool to clip low-confidence reads and possible adapters. <br />
 Generate index file for mm38 transcriptome downloaded from Ensemble. <br />
